@@ -20,7 +20,7 @@ namespace UnitBrains.Player
             float currentTemperature = GetTemperature();
 
             var projectile = CreateProjectile(forTarget);
-            AddProjectileToList(projectile, intoList);
+           
 
             int projectilesCount = (int)currentTemperature;
 
